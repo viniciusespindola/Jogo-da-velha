@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jogo da velha</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="titulo"><h1>Jogo da Velha</h1></div>
+	<div class="placar">
+		<h1>Placar</h1>
+		<h3>Jogador X: <span id="X"></span></h3>
+		<h3>Jogador O: <span id="O"></span></h3>
+	</div>
+	<button>Recomeçar</button>
+	
+	<!-- Tabela do jogo -->
+	<div id="jogo">
+		<div class="espacos fileira1 border"></div>
+		<div class="espacos fileira1 bordas-lados"></div>
+		<div class="espacos fileira1 border"></div>
+		<div class="espacos fileira2 bordas-cima"></div>
+		<div class="espacos fileira2 bordas"></div>
+		<div class="espacos fileira2 bordas-cima"></div>
+		<div class="espacos fileira3 border"></div>
+		<div class="espacos fileira3 bordas-lados"></div>
+		<div class="espacos fileira3 border"></div>
+	</div>
+	
+	<div class="vez">
+		<h4></h4>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<script src="game.js"></script>
+</body>
+</html>
